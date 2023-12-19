@@ -22,20 +22,37 @@ body {
   color: white;
 }
 
+/* About */
+#About {
+  margin-top: 50px;
+}
+
+#About h1,
+p {
+  color: white;
+  text-align: center;
+}
+
+/* #About p {
+  color: white;
+  text-align: center;
+  align-items: center;
+} */
+
 /* skill */
-.skills {
+#skills {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 2fr));
   gap: 10px;
 }
 
-.skills h1 {
+#skills h1 {
   grid-column: 1 / -1;
   text-align: center;
   margin-bottom: 20px;
 }
 
-.skills h3 {
+#skills h3 {
   color: rgb(19, 19, 19);
 }
 
@@ -158,21 +175,35 @@ body {
 }
 
 /* project */
-.projects h1 {
+#projects h1 {
   grid-column: 1 / -1;
   text-align: center;
   margin-bottom: 20px;
 }
 
-.projects {
+#projects {
   display: grid;
   /* grid-template-columns: repeat(auto-fit, minmax(200px, 2fr)); */
 }
 
+#projects p {
+  float: inline-start;
+  color: #222;
+}
+
 /* Contact */
-.contact h1 {
+#contact h1 {
   grid-column: 1 / -1;
   text-align: center;
   margin-bottom: 20px;
   padding-top: 20px;
+  margin-top: 30px;
+}
+
+#contact {
+  margin-left: 130px;
+}
+
+/* breakpoint */
+@media screen {
 }

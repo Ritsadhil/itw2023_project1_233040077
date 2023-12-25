@@ -184,6 +184,7 @@ p {
 }
 
 #projects {
+  overflow: hidden;
   display: grid;
   /* grid-template-columns: repeat(auto-fit, minmax(200px, 2fr)); */
 }
@@ -212,18 +213,18 @@ p {
     overflow: hidden;
   }
 
-  .jumbotron {
+  /* .jumbotron {
     margin-left: auto;
-  }
+  } */
 
   /* .jumbotron h1 {
     text-align: center;
     align-items: center;
   } */
-
+  /* 
   .jumbotron img {
     margin-left: auto;
-  }
+  } */
 
   #contact {
     align-items: center;

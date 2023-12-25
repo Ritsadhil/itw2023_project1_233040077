@@ -221,10 +221,10 @@ p {
     text-align: center;
     align-items: center;
   } */
-  /* 
+
   .jumbotron img {
-    margin-left: auto;
-  } */
+    float: none;
+  }
 
   /* #project {
     overflow: hidden;

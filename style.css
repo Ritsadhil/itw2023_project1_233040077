@@ -7,6 +7,7 @@ body {
   padding: 2rem 1rem;
   background-color: rgb(19, 19, 19);
   display: flex;
+  margin-top: 50px;
 }
 
 .jumbotron .container img {
@@ -73,6 +74,7 @@ p {
 .editing {
   width: 150px;
   height: 150px;
+  border-radius: 50%;
 }
 
 .gallery li {
@@ -201,9 +203,27 @@ p {
 }
 
 #contact {
-  margin-left: 130px;
+  margin-left: 275px;
 }
 
 /* breakpoint */
-@media screen {
+@media (max-width: 575.98px) {
+  .jumbotron {
+    margin-left: auto;
+  }
+
+  /* .jumbotron h1 {
+    text-align: center;
+    align-items: center;
+  } */
+
+  /* .jumbotron img {
+    margin-left: auto;
+  } */
+
+  #contact {
+    align-items: center;
+    width: 400px;
+    margin-left: 30px;
+  }
 }

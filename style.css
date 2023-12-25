@@ -209,9 +209,9 @@ p {
 
 /* breakpoint */
 @media (max-width: 575.98px) {
-  body {
+  /* body {
     overflow: hidden;
-  }
+  } */
 
   /* .jumbotron {
     margin-left: auto;
@@ -224,6 +224,18 @@ p {
   /* 
   .jumbotron img {
     margin-left: auto;
+  } */
+
+  /* #project {
+    overflow: hidden;
+  }
+
+  #project .row {
+    overflow-y: scroll;
+  }
+
+  #project .col {
+    overflow-y: scroll;
   } */
 
   #contact {
